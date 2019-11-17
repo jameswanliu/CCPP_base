@@ -110,44 +110,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled1
+# Target rules for targets named main
 
 # Build rule for target.
-untitled1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 untitled1
-.PHONY : untitled1
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-untitled1/fast:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
-.PHONY : untitled1/fast
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-main.obj: main.cpp.obj
+#=============================================================================
+# Target rules for targets named first
+
+# Build rule for target.
+first: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 first
+.PHONY : first
+
+# fast build rule for target.
+first/fast:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/build
+.PHONY : first/fast
+
+first.obj: first.c.obj
+
+.PHONY : first.obj
+
+# target to build an object file
+first.c.obj:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.obj
+.PHONY : first.c.obj
+
+first.i: first.c.i
+
+.PHONY : first.i
+
+# target to preprocess a source file
+first.c.i:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.i
+.PHONY : first.c.i
+
+first.s: first.c.s
+
+.PHONY : first.s
+
+# target to generate assembly for a file
+first.c.s:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.s
+.PHONY : first.c.s
+
+main.obj: main.c.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main.c.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
+.PHONY : main.c.obj
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -155,9 +195,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... untitled1
 	@echo ... edit_cache
+	@echo ... main
+	@echo ... first
 	@echo ... rebuild_cache
+	@echo ... first.obj
+	@echo ... first.i
+	@echo ... first.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
