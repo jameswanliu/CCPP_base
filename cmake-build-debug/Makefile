@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\james\clionworkspace\CCPP_base
+CMAKE_SOURCE_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,6 +135,164 @@ first/fast:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/build
 .PHONY : first/fast
 
+#=============================================================================
+# Target rules for targets named structlearning
+
+# Build rule for target.
+structlearning: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 structlearning
+.PHONY : structlearning
+
+# fast build rule for target.
+structlearning/fast:
+	$(MAKE) -f CMakeFiles\structlearning.dir\build.make CMakeFiles/structlearning.dir/build
+.PHONY : structlearning/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named leak_mm
+
+# Build rule for target.
+leak_mm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 leak_mm
+.PHONY : leak_mm
+
+# fast build rule for target.
+leak_mm/fast:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/build
+.PHONY : leak_mm/fast
+
+#=============================================================================
+# Target rules for targets named fun
+
+# Build rule for target.
+fun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 fun
+.PHONY : fun
+
+# fast build rule for target.
+fun/fast:
+	$(MAKE) -f CMakeFiles\fun.dir\build.make CMakeFiles/fun.dir/build
+.PHONY : fun/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_memory
+
+# Build rule for target.
+dynamic_memory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 dynamic_memory
+.PHONY : dynamic_memory
+
+# fast build rule for target.
+dynamic_memory/fast:
+	$(MAKE) -f CMakeFiles\dynamic_memory.dir\build.make CMakeFiles/dynamic_memory.dir/build
+.PHONY : dynamic_memory/fast
+
+#=============================================================================
+# Target rules for targets named funtions_pointer
+
+# Build rule for target.
+funtions_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 funtions_pointer
+.PHONY : funtions_pointer
+
+# fast build rule for target.
+funtions_pointer/fast:
+	$(MAKE) -f CMakeFiles\funtions_pointer.dir\build.make CMakeFiles/funtions_pointer.dir/build
+.PHONY : funtions_pointer/fast
+
+#=============================================================================
+# Target rules for targets named pointer_strengthen
+
+# Build rule for target.
+pointer_strengthen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pointer_strengthen
+.PHONY : pointer_strengthen
+
+# fast build rule for target.
+pointer_strengthen/fast:
+	$(MAKE) -f CMakeFiles\pointer_strengthen.dir\build.make CMakeFiles/pointer_strengthen.dir/build
+.PHONY : pointer_strengthen/fast
+
+#=============================================================================
+# Target rules for targets named arraypointer_pointerarray
+
+# Build rule for target.
+arraypointer_pointerarray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 arraypointer_pointerarray
+.PHONY : arraypointer_pointerarray
+
+# fast build rule for target.
+arraypointer_pointerarray/fast:
+	$(MAKE) -f CMakeFiles\arraypointer_pointerarray.dir\build.make CMakeFiles/arraypointer_pointerarray.dir/build
+.PHONY : arraypointer_pointerarray/fast
+
+arraypointer_pointerarray.obj: arraypointer_pointerarray.c.obj
+
+.PHONY : arraypointer_pointerarray.obj
+
+# target to build an object file
+arraypointer_pointerarray.c.obj:
+	$(MAKE) -f CMakeFiles\arraypointer_pointerarray.dir\build.make CMakeFiles/arraypointer_pointerarray.dir/arraypointer_pointerarray.c.obj
+.PHONY : arraypointer_pointerarray.c.obj
+
+arraypointer_pointerarray.i: arraypointer_pointerarray.c.i
+
+.PHONY : arraypointer_pointerarray.i
+
+# target to preprocess a source file
+arraypointer_pointerarray.c.i:
+	$(MAKE) -f CMakeFiles\arraypointer_pointerarray.dir\build.make CMakeFiles/arraypointer_pointerarray.dir/arraypointer_pointerarray.c.i
+.PHONY : arraypointer_pointerarray.c.i
+
+arraypointer_pointerarray.s: arraypointer_pointerarray.c.s
+
+.PHONY : arraypointer_pointerarray.s
+
+# target to generate assembly for a file
+arraypointer_pointerarray.c.s:
+	$(MAKE) -f CMakeFiles\arraypointer_pointerarray.dir\build.make CMakeFiles/arraypointer_pointerarray.dir/arraypointer_pointerarray.c.s
+.PHONY : arraypointer_pointerarray.c.s
+
+dynamic_memory.obj: dynamic_memory.c.obj
+
+.PHONY : dynamic_memory.obj
+
+# target to build an object file
+dynamic_memory.c.obj:
+	$(MAKE) -f CMakeFiles\dynamic_memory.dir\build.make CMakeFiles/dynamic_memory.dir/dynamic_memory.c.obj
+.PHONY : dynamic_memory.c.obj
+
+dynamic_memory.i: dynamic_memory.c.i
+
+.PHONY : dynamic_memory.i
+
+# target to preprocess a source file
+dynamic_memory.c.i:
+	$(MAKE) -f CMakeFiles\dynamic_memory.dir\build.make CMakeFiles/dynamic_memory.dir/dynamic_memory.c.i
+.PHONY : dynamic_memory.c.i
+
+dynamic_memory.s: dynamic_memory.c.s
+
+.PHONY : dynamic_memory.s
+
+# target to generate assembly for a file
+dynamic_memory.c.s:
+	$(MAKE) -f CMakeFiles\dynamic_memory.dir\build.make CMakeFiles/dynamic_memory.dir/dynamic_memory.c.s
+.PHONY : dynamic_memory.c.s
+
 first.obj: first.c.obj
 
 .PHONY : first.obj
@@ -161,6 +319,114 @@ first.s: first.c.s
 first.c.s:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/first.c.s
 .PHONY : first.c.s
+
+funtions.obj: funtions.c.obj
+
+.PHONY : funtions.obj
+
+# target to build an object file
+funtions.c.obj:
+	$(MAKE) -f CMakeFiles\fun.dir\build.make CMakeFiles/fun.dir/funtions.c.obj
+.PHONY : funtions.c.obj
+
+funtions.i: funtions.c.i
+
+.PHONY : funtions.i
+
+# target to preprocess a source file
+funtions.c.i:
+	$(MAKE) -f CMakeFiles\fun.dir\build.make CMakeFiles/fun.dir/funtions.c.i
+.PHONY : funtions.c.i
+
+funtions.s: funtions.c.s
+
+.PHONY : funtions.s
+
+# target to generate assembly for a file
+funtions.c.s:
+	$(MAKE) -f CMakeFiles\fun.dir\build.make CMakeFiles/fun.dir/funtions.c.s
+.PHONY : funtions.c.s
+
+funtions_pointer.obj: funtions_pointer.c.obj
+
+.PHONY : funtions_pointer.obj
+
+# target to build an object file
+funtions_pointer.c.obj:
+	$(MAKE) -f CMakeFiles\funtions_pointer.dir\build.make CMakeFiles/funtions_pointer.dir/funtions_pointer.c.obj
+.PHONY : funtions_pointer.c.obj
+
+funtions_pointer.i: funtions_pointer.c.i
+
+.PHONY : funtions_pointer.i
+
+# target to preprocess a source file
+funtions_pointer.c.i:
+	$(MAKE) -f CMakeFiles\funtions_pointer.dir\build.make CMakeFiles/funtions_pointer.dir/funtions_pointer.c.i
+.PHONY : funtions_pointer.c.i
+
+funtions_pointer.s: funtions_pointer.c.s
+
+.PHONY : funtions_pointer.s
+
+# target to generate assembly for a file
+funtions_pointer.c.s:
+	$(MAKE) -f CMakeFiles\funtions_pointer.dir\build.make CMakeFiles/funtions_pointer.dir/funtions_pointer.c.s
+.PHONY : funtions_pointer.c.s
+
+leak_mm.obj: leak_mm.c.obj
+
+.PHONY : leak_mm.obj
+
+# target to build an object file
+leak_mm.c.obj:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm.c.obj
+.PHONY : leak_mm.c.obj
+
+leak_mm.i: leak_mm.c.i
+
+.PHONY : leak_mm.i
+
+# target to preprocess a source file
+leak_mm.c.i:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm.c.i
+.PHONY : leak_mm.c.i
+
+leak_mm.s: leak_mm.c.s
+
+.PHONY : leak_mm.s
+
+# target to generate assembly for a file
+leak_mm.c.s:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm.c.s
+.PHONY : leak_mm.c.s
+
+leak_mm_test.obj: leak_mm_test.c.obj
+
+.PHONY : leak_mm_test.obj
+
+# target to build an object file
+leak_mm_test.c.obj:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm_test.c.obj
+.PHONY : leak_mm_test.c.obj
+
+leak_mm_test.i: leak_mm_test.c.i
+
+.PHONY : leak_mm_test.i
+
+# target to preprocess a source file
+leak_mm_test.c.i:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm_test.c.i
+.PHONY : leak_mm_test.c.i
+
+leak_mm_test.s: leak_mm_test.c.s
+
+.PHONY : leak_mm_test.s
+
+# target to generate assembly for a file
+leak_mm_test.c.s:
+	$(MAKE) -f CMakeFiles\leak_mm.dir\build.make CMakeFiles/leak_mm.dir/leak_mm_test.c.s
+.PHONY : leak_mm_test.c.s
 
 main.obj: main.c.obj
 
@@ -189,6 +455,87 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+pointer_strengthen.obj: pointer_strengthen.c.obj
+
+.PHONY : pointer_strengthen.obj
+
+# target to build an object file
+pointer_strengthen.c.obj:
+	$(MAKE) -f CMakeFiles\pointer_strengthen.dir\build.make CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.obj
+.PHONY : pointer_strengthen.c.obj
+
+pointer_strengthen.i: pointer_strengthen.c.i
+
+.PHONY : pointer_strengthen.i
+
+# target to preprocess a source file
+pointer_strengthen.c.i:
+	$(MAKE) -f CMakeFiles\pointer_strengthen.dir\build.make CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.i
+.PHONY : pointer_strengthen.c.i
+
+pointer_strengthen.s: pointer_strengthen.c.s
+
+.PHONY : pointer_strengthen.s
+
+# target to generate assembly for a file
+pointer_strengthen.c.s:
+	$(MAKE) -f CMakeFiles\pointer_strengthen.dir\build.make CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.s
+.PHONY : pointer_strengthen.c.s
+
+structlearning.obj: structlearning.c.obj
+
+.PHONY : structlearning.obj
+
+# target to build an object file
+structlearning.c.obj:
+	$(MAKE) -f CMakeFiles\structlearning.dir\build.make CMakeFiles/structlearning.dir/structlearning.c.obj
+.PHONY : structlearning.c.obj
+
+structlearning.i: structlearning.c.i
+
+.PHONY : structlearning.i
+
+# target to preprocess a source file
+structlearning.c.i:
+	$(MAKE) -f CMakeFiles\structlearning.dir\build.make CMakeFiles/structlearning.dir/structlearning.c.i
+.PHONY : structlearning.c.i
+
+structlearning.s: structlearning.c.s
+
+.PHONY : structlearning.s
+
+# target to generate assembly for a file
+structlearning.c.s:
+	$(MAKE) -f CMakeFiles\structlearning.dir\build.make CMakeFiles/structlearning.dir/structlearning.c.s
+.PHONY : structlearning.c.s
+
+test.obj: test.c.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.c.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.obj
+.PHONY : test.c.obj
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -198,13 +545,48 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... first
+	@echo ... structlearning
+	@echo ... test
+	@echo ... leak_mm
+	@echo ... fun
+	@echo ... dynamic_memory
+	@echo ... funtions_pointer
+	@echo ... pointer_strengthen
+	@echo ... arraypointer_pointerarray
 	@echo ... rebuild_cache
+	@echo ... arraypointer_pointerarray.obj
+	@echo ... arraypointer_pointerarray.i
+	@echo ... arraypointer_pointerarray.s
+	@echo ... dynamic_memory.obj
+	@echo ... dynamic_memory.i
+	@echo ... dynamic_memory.s
 	@echo ... first.obj
 	@echo ... first.i
 	@echo ... first.s
+	@echo ... funtions.obj
+	@echo ... funtions.i
+	@echo ... funtions.s
+	@echo ... funtions_pointer.obj
+	@echo ... funtions_pointer.i
+	@echo ... funtions_pointer.s
+	@echo ... leak_mm.obj
+	@echo ... leak_mm.i
+	@echo ... leak_mm.s
+	@echo ... leak_mm_test.obj
+	@echo ... leak_mm_test.i
+	@echo ... leak_mm_test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pointer_strengthen.obj
+	@echo ... pointer_strengthen.i
+	@echo ... pointer_strengthen.s
+	@echo ... structlearning.obj
+	@echo ... structlearning.i
+	@echo ... structlearning.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

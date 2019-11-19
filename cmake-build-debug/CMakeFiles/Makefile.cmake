@@ -55,4 +55,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/first.dir/DependInfo.cmake"
+  "CMakeFiles/structlearning.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/leak_mm.dir/DependInfo.cmake"
+  "CMakeFiles/fun.dir/DependInfo.cmake"
+  "CMakeFiles/dynamic_memory.dir/DependInfo.cmake"
+  "CMakeFiles/funtions_pointer.dir/DependInfo.cmake"
+  "CMakeFiles/pointer_strengthen.dir/DependInfo.cmake"
+  "CMakeFiles/arraypointer_pointerarray.dir/DependInfo.cmake"
   )

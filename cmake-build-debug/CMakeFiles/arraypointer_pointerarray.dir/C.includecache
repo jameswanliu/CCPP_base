@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/arraypointer_pointerarray.c
+stdlib.h
+-
+stdio.h
+-
+
