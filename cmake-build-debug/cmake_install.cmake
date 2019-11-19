@@ -1,4 +1,4 @@
-# Install script for directory: D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base
+# Install script for directory: D:/Users/james/clionworkspace/CCPP_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

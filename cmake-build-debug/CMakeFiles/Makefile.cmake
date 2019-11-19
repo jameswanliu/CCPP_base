@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/funtions_pointer.dir/DependInfo.cmake"
   "CMakeFiles/pointer_strengthen.dir/DependInfo.cmake"
   "CMakeFiles/arraypointer_pointerarray.dir/DependInfo.cmake"
+  "CMakeFiles/string.dir/DependInfo.cmake"
   )

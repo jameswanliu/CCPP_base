@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/funtions_pointer.c" "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/CMakeFiles/funtions_pointer.dir/funtions_pointer.c.obj"
+  "D:/Users/james/clionworkspace/CCPP_base/funtions_pointer.c" "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/CMakeFiles/funtions_pointer.dir/funtions_pointer.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

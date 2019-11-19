@@ -34,4 +34,27 @@ int main() {
     }
 
 
+
+    //求数组中的最大值
+
+    int *c;
+    int max;
+
+    /**
+     * 将array的首地址赋给 c
+     *
+     *
+     * 将c的首元素赋值给max
+     *
+     * c的长度不能超过array
+     */
+    for (c = array[0], max = *c; c < array[0] + 6; c++) {
+        if (*c > max) {
+            max = *c;
+        }
+    }
+
+
+    printf("max =%d\n", max);
+
 }

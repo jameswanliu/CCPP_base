@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base
+CMAKE_SOURCE_DIR = D:\Users\james\clionworkspace\CCPP_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -238,6 +238,19 @@ arraypointer_pointerarray: cmake_check_build_system
 arraypointer_pointerarray/fast:
 	$(MAKE) -f CMakeFiles\arraypointer_pointerarray.dir\build.make CMakeFiles/arraypointer_pointerarray.dir/build
 .PHONY : arraypointer_pointerarray/fast
+
+#=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
 
 arraypointer_pointerarray.obj: arraypointer_pointerarray.c.obj
 
@@ -482,6 +495,33 @@ pointer_strengthen.c.s:
 	$(MAKE) -f CMakeFiles\pointer_strengthen.dir\build.make CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.s
 .PHONY : pointer_strengthen.c.s
 
+string/mystring.obj: string/mystring.c.obj
+
+.PHONY : string/mystring.obj
+
+# target to build an object file
+string/mystring.c.obj:
+	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/string/mystring.c.obj
+.PHONY : string/mystring.c.obj
+
+string/mystring.i: string/mystring.c.i
+
+.PHONY : string/mystring.i
+
+# target to preprocess a source file
+string/mystring.c.i:
+	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/string/mystring.c.i
+.PHONY : string/mystring.c.i
+
+string/mystring.s: string/mystring.c.s
+
+.PHONY : string/mystring.s
+
+# target to generate assembly for a file
+string/mystring.c.s:
+	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/string/mystring.c.s
+.PHONY : string/mystring.c.s
+
 structlearning.obj: structlearning.c.obj
 
 .PHONY : structlearning.obj
@@ -553,6 +593,7 @@ help:
 	@echo ... funtions_pointer
 	@echo ... pointer_strengthen
 	@echo ... arraypointer_pointerarray
+	@echo ... string
 	@echo ... rebuild_cache
 	@echo ... arraypointer_pointerarray.obj
 	@echo ... arraypointer_pointerarray.i
@@ -581,6 +622,9 @@ help:
 	@echo ... pointer_strengthen.obj
 	@echo ... pointer_strengthen.i
 	@echo ... pointer_strengthen.s
+	@echo ... string/mystring.obj
+	@echo ... string/mystring.i
+	@echo ... string/mystring.s
 	@echo ... structlearning.obj
 	@echo ... structlearning.i
 	@echo ... structlearning.s
