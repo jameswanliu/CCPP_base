@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,15 +63,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -84,15 +84,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -105,15 +105,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structlearning">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/structlearning.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/structlearning.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -126,15 +126,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 structlearning"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 structlearning"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="structlearning/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/structlearning.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/structlearning.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -147,15 +147,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 structlearning/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 structlearning/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -168,15 +168,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -189,15 +189,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leak_mm">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/leak_mm.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/leak_mm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -210,15 +210,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 leak_mm"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 leak_mm"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leak_mm/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/leak_mm.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/leak_mm.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -231,15 +231,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 leak_mm/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 leak_mm/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fun">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/fun.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/fun.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -252,15 +252,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fun/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/fun.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/fun.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -273,15 +273,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_memory">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/dynamic_memory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/dynamic_memory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -294,15 +294,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dynamic_memory/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/dynamic_memory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/dynamic_memory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -315,15 +315,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="funtions_pointer">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/funtions_pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/funtions_pointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -336,15 +336,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 funtions_pointer"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 funtions_pointer"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="funtions_pointer/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/funtions_pointer.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/funtions_pointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -357,15 +357,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 funtions_pointer/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 funtions_pointer/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointer_strengthen">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/pointer_strengthen.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/pointer_strengthen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -378,15 +378,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_strengthen"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_strengthen"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pointer_strengthen/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/pointer_strengthen.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/pointer_strengthen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -399,15 +399,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_strengthen/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer_strengthen/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arraypointer_pointerarray">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/arraypointer_pointerarray.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/arraypointer_pointerarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -420,15 +420,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraypointer_pointerarray"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraypointer_pointerarray"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="arraypointer_pointerarray/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/arraypointer_pointerarray.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/arraypointer_pointerarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -441,15 +441,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraypointer_pointerarray/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraypointer_pointerarray/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="string">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -462,15 +462,15 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 string"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 string"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="string/fast">
-				<Option output="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -483,63 +483,63 @@
 					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 string/fast"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 string/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/arraypointer_pointerarray.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/arraypointer_pointerarray.c">
 			<Option target="arraypointer_pointerarray"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/dynamic_memory.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/dynamic_memory.c">
 			<Option target="dynamic_memory"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/first.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/first.c">
 			<Option target="first"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/funtions.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/funtions.c">
 			<Option target="fun"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/funtions_pointer.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/funtions_pointer.c">
 			<Option target="funtions_pointer"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/leak_mm.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/leak_mm.c">
 			<Option target="leak_mm"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/leak_mm_test.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/leak_mm_test.c">
 			<Option target="leak_mm"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/main.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/main.c">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/memory_leak.h">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/memory_leak.h">
 			<Option target="leak_mm"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/pointer_strengthen.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/pointer_strengthen.c">
 			<Option target="pointer_strengthen"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/string/mystring.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/string/mystring.c">
 			<Option target="string"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/structlearning.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/structlearning.c">
 			<Option target="structlearning"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/test.c">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/test.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="D:/Users/james/clionworkspace/CCPP_base/CMakeLists.txt">
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

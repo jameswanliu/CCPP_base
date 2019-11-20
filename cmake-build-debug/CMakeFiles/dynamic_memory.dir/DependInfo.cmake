@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Users/james/clionworkspace/CCPP_base/dynamic_memory.c" "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/CMakeFiles/dynamic_memory.dir/dynamic_memory.c.obj"
+  "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/dynamic_memory.c" "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/CMakeFiles/dynamic_memory.dir/dynamic_memory.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
