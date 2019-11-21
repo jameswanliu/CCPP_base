@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Users/james/clionworkspace/CCPP_base/string/mystring.c
+D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/string/mystring.c
 stdio.h
 -
 stdlib.h
+-
+string.h
 -
 

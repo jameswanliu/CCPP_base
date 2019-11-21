@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Users/james/clionworkspace/CCPP_base/leak_mm.c" "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/CMakeFiles/leak_mm.dir/leak_mm.c.obj"
-  "D:/Users/james/clionworkspace/CCPP_base/leak_mm_test.c" "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/CMakeFiles/leak_mm.dir/leak_mm_test.c.obj"
+  "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/leak_mm.c" "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/CMakeFiles/leak_mm.dir/leak_mm.c.obj"
+  "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/leak_mm_test.c" "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/CMakeFiles/leak_mm.dir/leak_mm_test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
