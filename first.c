@@ -5,6 +5,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
+/**
+ * const char *p ，char const *p 和 char * const p的区别
+ *
+ * const char *p 与 char const *p相同 即是指针常量 其指向的值不可改变
+ *
+ *  char * const p 常量指针  其保存的地址不可以改变
+ * @return
+ */
 int main() {
 
 
