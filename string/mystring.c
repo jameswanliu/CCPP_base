@@ -100,7 +100,7 @@ int main() {
 
 
 
-    char *string = "shish";//字符串常量 不可修改?
+    volatile char *string = "shish";//字符串常量 不可修改?
     string = "hahaha";
     printf("修改后的string为%s\n", string);
     const int sum = 100;

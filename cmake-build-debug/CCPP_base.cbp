@@ -489,6 +489,48 @@
 					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="file">
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/file.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 file"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file/fast">
+				<Option output="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/file.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 file/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug"/>
 				<Option type="4"/>
@@ -505,6 +547,9 @@
 		</Unit>
 		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/dynamic_memory.c">
 			<Option target="dynamic_memory"/>
+		</Unit>
+		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/file/myfile.c">
+			<Option target="file"/>
 		</Unit>
 		<Unit filename="D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/first.c">
 			<Option target="first"/>

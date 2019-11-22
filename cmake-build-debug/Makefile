@@ -252,6 +252,19 @@ string/fast:
 	$(MAKE) -f CMakeFiles\string.dir\build.make CMakeFiles/string.dir/build
 .PHONY : string/fast
 
+#=============================================================================
+# Target rules for targets named file
+
+# Build rule for target.
+file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/build
+.PHONY : file/fast
+
 arraypointer_pointerarray.obj: arraypointer_pointerarray.c.obj
 
 .PHONY : arraypointer_pointerarray.obj
@@ -305,6 +318,33 @@ dynamic_memory.s: dynamic_memory.c.s
 dynamic_memory.c.s:
 	$(MAKE) -f CMakeFiles\dynamic_memory.dir\build.make CMakeFiles/dynamic_memory.dir/dynamic_memory.c.s
 .PHONY : dynamic_memory.c.s
+
+file/myfile.obj: file/myfile.c.obj
+
+.PHONY : file/myfile.obj
+
+# target to build an object file
+file/myfile.c.obj:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/file/myfile.c.obj
+.PHONY : file/myfile.c.obj
+
+file/myfile.i: file/myfile.c.i
+
+.PHONY : file/myfile.i
+
+# target to preprocess a source file
+file/myfile.c.i:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/file/myfile.c.i
+.PHONY : file/myfile.c.i
+
+file/myfile.s: file/myfile.c.s
+
+.PHONY : file/myfile.s
+
+# target to generate assembly for a file
+file/myfile.c.s:
+	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/file/myfile.c.s
+.PHONY : file/myfile.c.s
 
 first.obj: first.c.obj
 
@@ -594,6 +634,7 @@ help:
 	@echo ... pointer_strengthen
 	@echo ... arraypointer_pointerarray
 	@echo ... string
+	@echo ... file
 	@echo ... rebuild_cache
 	@echo ... arraypointer_pointerarray.obj
 	@echo ... arraypointer_pointerarray.i
@@ -601,6 +642,9 @@ help:
 	@echo ... dynamic_memory.obj
 	@echo ... dynamic_memory.i
 	@echo ... dynamic_memory.s
+	@echo ... file/myfile.obj
+	@echo ... file/myfile.i
+	@echo ... file/myfile.s
 	@echo ... first.obj
 	@echo ... first.i
 	@echo ... first.s
