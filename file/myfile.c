@@ -69,7 +69,26 @@ void testBaseApi() {
 }
 
 
+int getfileLineNum(FILE *file) {
+    int num = 0;
+    if (file == NULL) {
+        printf("file open fail");
+        return -1;
+    }
+    char buff[1024];
+
+    while (fgets(buff, 1024, file) != NULL) {
+        printf("buff=%s\n", buff);
+        num++;
+    }
+    fseek(file, 0, SEEK_SET);
+    return num;
+}
+
+
 int main() {
     printf("copy success = %d\n", copyFile("../file/src.txt", "../file/desc.txt"));
+    FILE *file = fopen("../file/test.txt", "r");
+    printf("file num = %d\n", getfileLineNum(file));
     testBaseApi();
 }
