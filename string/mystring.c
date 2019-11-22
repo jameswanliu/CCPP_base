@@ -20,11 +20,14 @@ int mystrlen(char *str) {
     return count;
 }
 
+int cmp(char *str, char *str2) {
+    return strcmp(str, str2); //aaa hello
+}
 
 /**
  * 外部传入的是字符串数组 将字符串首地址赋给了dest
- * 然后 将dect 的地址赋值给了ret 当*dest++=*str++
- * 时 其实是将str的值放进了ret指针指向的内容中 起到了拼接的作用
+ * 然后 将dect 的地址赋值给了ret ，当*dest++=*str++
+ * 时 其实是将str的值放进了ret指针指向的内存中 起到了拼接的作用
  * @param dect
  * @param str
  * @return
@@ -87,11 +90,7 @@ char *mystrstr(const char *desc, const char *str) {
 
 int main() {
 
-<<<<<<< HEAD
     char array[] = {'s', 's', 's', '\0'};
-=======
-    char array[] = {'s', 's', 's', 's', 's', '\0'};
->>>>>>> 7fd0ba941b6a0da7b91f6296b7cc0d8c810fba5c
     printf("数组长度为%d\n", mystrlen(array));
 
 //
@@ -101,7 +100,6 @@ int main() {
 
 
 
-<<<<<<< HEAD
     char *string = "shish";//字符串常量 不可修改?
     string = "hahaha";
     printf("修改后的string为%s\n", string);
@@ -140,28 +138,16 @@ int main() {
     //
     //         stream ： 指向读取的流。
     printf("fgets= %s\n",fgets(str_array, sizeof(str_array),stdin));
-
-=======
-    char *string = "fadfa";//字符串常量 不可修改?
     string = "fadf";//string 指针指向新的内容
     printf("修改后的string为%s\n", string);
-    const int sum = 100;
     printf("修改前的sum =%d\n", sum);
-    int *p = &sum;//c编译器bug
     *p = 200;
     printf("修改后的sum =%d\n", sum);
 
     printf("字符串比较 cmp = %d\n", cmp(array, string));
->>>>>>> 7fd0ba941b6a0da7b91f6296b7cc0d8c810fba5c
 
     return 0;
 
 }
 
-<<<<<<< HEAD
-=======
 
-int cmp(char *str, char *str2) {
-    return strcmp(str, str2); //aaa hello
-}
->>>>>>> 7fd0ba941b6a0da7b91f6296b7cc0d8c810fba5c
