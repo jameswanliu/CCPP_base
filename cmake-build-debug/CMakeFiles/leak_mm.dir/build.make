@@ -42,10 +42,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base
+CMAKE_SOURCE_DIR = D:\Users\james\clionworkspace\CCPP_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leak_mm.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/leak_mm.dir/flags.make
 
 CMakeFiles/leak_mm.dir/leak_mm.c.obj: CMakeFiles/leak_mm.dir/flags.make
 CMakeFiles/leak_mm.dir/leak_mm.c.obj: ../leak_mm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leak_mm.dir/leak_mm.c.obj"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leak_mm.dir\leak_mm.c.obj   -c D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leak_mm.dir/leak_mm.c.obj"
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leak_mm.dir\leak_mm.c.obj   -c D:\Users\james\clionworkspace\CCPP_base\leak_mm.c
 
 CMakeFiles/leak_mm.dir/leak_mm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leak_mm.dir/leak_mm.c.i"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm.c > CMakeFiles\leak_mm.dir\leak_mm.c.i
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\james\clionworkspace\CCPP_base\leak_mm.c > CMakeFiles\leak_mm.dir\leak_mm.c.i
 
 CMakeFiles/leak_mm.dir/leak_mm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leak_mm.dir/leak_mm.c.s"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm.c -o CMakeFiles\leak_mm.dir\leak_mm.c.s
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\james\clionworkspace\CCPP_base\leak_mm.c -o CMakeFiles\leak_mm.dir\leak_mm.c.s
 
 CMakeFiles/leak_mm.dir/leak_mm_test.c.obj: CMakeFiles/leak_mm.dir/flags.make
 CMakeFiles/leak_mm.dir/leak_mm_test.c.obj: ../leak_mm_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leak_mm.dir/leak_mm_test.c.obj"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leak_mm.dir\leak_mm_test.c.obj   -c D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leak_mm.dir/leak_mm_test.c.obj"
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leak_mm.dir\leak_mm_test.c.obj   -c D:\Users\james\clionworkspace\CCPP_base\leak_mm_test.c
 
 CMakeFiles/leak_mm.dir/leak_mm_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leak_mm.dir/leak_mm_test.c.i"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm_test.c > CMakeFiles\leak_mm.dir\leak_mm_test.c.i
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\james\clionworkspace\CCPP_base\leak_mm_test.c > CMakeFiles\leak_mm.dir\leak_mm_test.c.i
 
 CMakeFiles/leak_mm.dir/leak_mm_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leak_mm.dir/leak_mm_test.c.s"
-	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\leak_mm_test.c -o CMakeFiles\leak_mm.dir\leak_mm_test.c.s
+	"D:\Program Files\JetBrains\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\james\clionworkspace\CCPP_base\leak_mm_test.c -o CMakeFiles\leak_mm.dir\leak_mm_test.c.s
 
 # Object files for target leak_mm
 leak_mm_OBJECTS = \
@@ -96,7 +96,7 @@ leak_mm.exe: CMakeFiles/leak_mm.dir/build.make
 leak_mm.exe: CMakeFiles/leak_mm.dir/linklibs.rsp
 leak_mm.exe: CMakeFiles/leak_mm.dir/objects1.rsp
 leak_mm.exe: CMakeFiles/leak_mm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leak_mm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leak_mm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leak_mm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/leak_mm.dir/clean:
 .PHONY : CMakeFiles/leak_mm.dir/clean
 
 CMakeFiles/leak_mm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles\leak_mm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Users\james\clionworkspace\CCPP_base D:\Users\james\clionworkspace\CCPP_base D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles\leak_mm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leak_mm.dir/depend
 

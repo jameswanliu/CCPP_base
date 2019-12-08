@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base
+CMAKE_SOURCE_DIR = D:\Users\james\clionworkspace\CCPP_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\kevin\cworkspace\c_cpp_base\CCPP_base\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\james\clionworkspace\CCPP_base\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -265,6 +265,19 @@ file/fast:
 	$(MAKE) -f CMakeFiles\file.dir\build.make CMakeFiles/file.dir/build
 .PHONY : file/fast
 
+#=============================================================================
+# Target rules for targets named homework
+
+# Build rule for target.
+homework: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 homework
+.PHONY : homework
+
+# fast build rule for target.
+homework/fast:
+	$(MAKE) -f CMakeFiles\homework.dir\build.make CMakeFiles/homework.dir/build
+.PHONY : homework/fast
+
 arraypointer_pointerarray.obj: arraypointer_pointerarray.c.obj
 
 .PHONY : arraypointer_pointerarray.obj
@@ -426,6 +439,33 @@ funtions_pointer.s: funtions_pointer.c.s
 funtions_pointer.c.s:
 	$(MAKE) -f CMakeFiles\funtions_pointer.dir\build.make CMakeFiles/funtions_pointer.dir/funtions_pointer.c.s
 .PHONY : funtions_pointer.c.s
+
+homework.obj: homework.c.obj
+
+.PHONY : homework.obj
+
+# target to build an object file
+homework.c.obj:
+	$(MAKE) -f CMakeFiles\homework.dir\build.make CMakeFiles/homework.dir/homework.c.obj
+.PHONY : homework.c.obj
+
+homework.i: homework.c.i
+
+.PHONY : homework.i
+
+# target to preprocess a source file
+homework.c.i:
+	$(MAKE) -f CMakeFiles\homework.dir\build.make CMakeFiles/homework.dir/homework.c.i
+.PHONY : homework.c.i
+
+homework.s: homework.c.s
+
+.PHONY : homework.s
+
+# target to generate assembly for a file
+homework.c.s:
+	$(MAKE) -f CMakeFiles\homework.dir\build.make CMakeFiles/homework.dir/homework.c.s
+.PHONY : homework.c.s
 
 leak_mm.obj: leak_mm.c.obj
 
@@ -635,6 +675,7 @@ help:
 	@echo ... arraypointer_pointerarray
 	@echo ... string
 	@echo ... file
+	@echo ... homework
 	@echo ... rebuild_cache
 	@echo ... arraypointer_pointerarray.obj
 	@echo ... arraypointer_pointerarray.i
@@ -654,6 +695,9 @@ help:
 	@echo ... funtions_pointer.obj
 	@echo ... funtions_pointer.i
 	@echo ... funtions_pointer.s
+	@echo ... homework.obj
+	@echo ... homework.i
+	@echo ... homework.s
 	@echo ... leak_mm.obj
 	@echo ... leak_mm.i
 	@echo ... leak_mm.s

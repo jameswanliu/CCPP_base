@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/pointer_strengthen.c" "D:/Users/kevin/cworkspace/c_cpp_base/CCPP_base/cmake-build-debug/CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.obj"
+  "D:/Users/james/clionworkspace/CCPP_base/pointer_strengthen.c" "D:/Users/james/clionworkspace/CCPP_base/cmake-build-debug/CMakeFiles/pointer_strengthen.dir/pointer_strengthen.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
